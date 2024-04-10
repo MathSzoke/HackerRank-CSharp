@@ -23,7 +23,8 @@ class Result
 
     public static void plusMinus(List<int> arr)
     {
-		// Neste código, Count é um método de extensão LINQ que conta o número de elementos em uma sequência que atendem a determinada condição.
+	// Neste código, Count é um método de extensão LINQ que conta o número
+    	// de elementos em uma sequência que atendem a determinada condição.
 		
         int countPositive = arr.Count(x => x > 0);
         int countNegative = arr.Count(x => x < 0);
